@@ -15,11 +15,11 @@
 ### Note: you need to start the server each time you reboot your machine, so you will need to run the command again if you are unable to connect
 - we can use a shortcut command that will make the proccess easier for you by creating an allias.
 
-``` echo 'alias sqlstart="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start"' >> ~/.profile```
+``` echo 'alias sqlstart="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start"' >> ~/.profile``` <br>
 ``` echo 'alias sqlstop="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres stop"' >> ~/.profile```
 
 - now you can easily start the server using this short command
-``` sqlstart```  >>> this command will start the server
+``` sqlstart```  >>> this command will start the server <br>
 ``` sqlstop```   >>> this command will stop the server
 
 ## if you are a Linux User no need to start the server, it will be done automatically
