@@ -5,18 +5,24 @@
 # How to install:
 - Open your terminal, and run this command to install the Postgres client and server
 
-```brew install postgresql```
+```
+brew install postgresql
+```
 
 - it will take some time to complete ( about 6 mins )
 - Once it does, then you can start the server using this command <br>
-``` pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start```
+```
+pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start
+```
 - now you should see server started meassage and you can work 
 ![]()
 ### Note: you need to start the server each time you reboot your machine, so you will need to run the command again if you are unable to connect
 - we can use a shortcut command that will make the proccess easier for you by creating an allias.
 
-``` echo 'alias sqlstart="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start"' >> ~/.profile``` <br>
-``` echo 'alias sqlstop="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres stop"' >> ~/.profile```
+``` 
+echo 'alias sqlstart="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start"' >> ~/.profile
+echo 'alias sqlstop="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres stop"' >> ~/.profile
+```
 
 - now you can easily start the server using this short command <br>
 ``` sqlstart```  >>> this command will start the server <br>
