@@ -45,7 +45,7 @@ brew services start postgres
 -------------------------------------------------
 ### How to use:
 - Once the server is started
-- Create your "user" database and we will need to create a default database for our user by running this command:
+- Create your "user" database and we will need to create a default database for your username by running this command:
 
 ``` 
 createdb `whoami`
