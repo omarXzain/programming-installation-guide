@@ -18,7 +18,7 @@
 ``` echo 'alias sqlstart="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start"' >> ~/.profile``` <br>
 ``` echo 'alias sqlstop="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres stop"' >> ~/.profile```
 
-- now you can easily start the server using this short command
+- now you can easily start the server using this short command <br>
 ``` sqlstart```  >>> this command will start the server <br>
 ``` sqlstop```   >>> this command will stop the server
 
