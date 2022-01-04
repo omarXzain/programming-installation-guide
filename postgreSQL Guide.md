@@ -38,20 +38,26 @@ On Mac, we start the postgres server in such a way as to have it run right away,
 
 Run this command to enable postgres:
 
-```brew services start postgres```
+```
+brew services start postgres
+```
 
 -------------------------------------------------
 ### How to use:
 - Once the server is started
 - Create your "user" database and we will need to create a default database for our user by running this command:
 
-``` createdb `whoami` ```
+``` 
+createdb `whoami`
+```
 
 - now you should be fine and you just create a database with your default username
 
 - please make sure everything is ok by running psql command:
 
-``` psql ```
+```
+psql
+```
 
 - You should see something similar to the following:
 ```
