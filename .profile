@@ -1,14 +1,4 @@
-# get current branch in git repo
-function parse_git_branch() {
- BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
- if [ ! "${BRANCH}" == "" ]
- then
-  STAT=`parse_git_dirty`
-  echo "[${BRANCH}${STAT}]"
- else
-  echo ""
- fi
-}
+
 
 # get current status of git repo
 function parse_git_dirty {
@@ -44,13 +34,7 @@ function parse_git_dirty {
   echo ""
  fi
 }
-git_branch() {
-     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
-}
-# PS1 is what actually defines what you command line prompt looks like.
-# export PS1="\[\e[m\]\[\e[36m\]\W\[\e[m\]\[\e[33m\]\`parse_git_branch\`\\$ "
-# export PS1="\u@\[\033[32m\]\w\[\033[33m\]\$(git_branch)\[\033[00m\]\$ " 
-# export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\] \[\033[33;1m\]\w\[\033[m\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2)) \$ "
+
 export PS1="\[\033[35m\] \u: path: \[\033[1;34m\]\[\033[1;34m\]\$(pwd) | \[\033[1;36m\]\$(/bin/ls -1 | /usr/bin/wc -l |
 /bin/sed 's: ::g') files | size \[\033[1;33m\]\$(/bin/ls -lah | /bin/grep -m 1 total | /bin/sed 's/total //')b |\[\033[0m\]\[\033[0m\] \[\033[0;32m\]branch: $(git_branch) |\n\[\033[0;32m\] └─\[\033[0m\033[0;36m\] $~ \[\033[33m\]"
 
