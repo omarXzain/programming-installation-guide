@@ -155,7 +155,7 @@ source ~/.profile
 sudo apt-get update
 ```
 - put your password, when prompted ( because we are using sudo )
-- once it's done, run this command: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 15mins )
+- once it's done, run this command: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 13mins )
 ```
 sudo apt-get upgrade
 ```
