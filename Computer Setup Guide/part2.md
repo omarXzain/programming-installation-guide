@@ -42,7 +42,7 @@ brew doctor
 ```
 
 ### Now we need to install `gcc` which is required for the homebrew to install other applications
-- to do this run this command in ubuntu: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 5mins)
+- to do this run this command in ubuntu: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 5 mins)
 ```
 brew install gcc
 ```
