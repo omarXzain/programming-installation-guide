@@ -53,7 +53,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 - this will enable Virtual Machine Platform for WSL, if it ask for a restart then restart your machine to continue
 ---------------------------------------------
 ### Now you need to install windows subsytem Linux ( used to run the Linux environment on windows )
-<h3 align="center"> please click on the icon below to install it directly</h3>
+<h3 align="center">  click on the icon below to download it directly</h3>
 <p align="center"> <kbd><a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi"> <img height="250px" width="250px" src="images/subsystemLinux.png" alt="WinsubsystemLinux"></a></kbd>
 <h3 align="center">windows subsystem linux</h3>
 <br>
@@ -91,7 +91,7 @@ wsl -l -v
 
 <hr>
 
-## Now please these instructions:
+## Now follow these instructions:
 
 - Run Ubuntu after it's done from installing then wait ... you will see a confirmation for a successful installation ( check the image below )
 
@@ -105,7 +105,7 @@ wsl -l -v
 
 ## Now we need to update ubuntu profile and create a backup for some files:
 
-### run these commands line by line
+### run these commands line by line:
 ```
 mv ~/.bashrc .bashrc.bak
 ```
@@ -129,7 +129,7 @@ mv ~/.zshrc .zshrc.bak
 curl -s https://github.com/omarXzain/LTUC-ASAC/blob/main/.profile>> ~/.profile
 ```
 
-- Once it finishes, `COMPLETLY CLOSE UBUNTU` then re-open it. 
+- Once it finishes, `COMPLETLY CLOSE UBUNTU` then re-open it again. 
 - Your terminal appearance should be changed to a different set of colors and cool features
 
 <hr>
