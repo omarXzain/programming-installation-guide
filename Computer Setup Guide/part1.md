@@ -77,7 +77,7 @@ wsl --set-default-version 2
 ```
 wsl -l -v 
 ``` 
-- if you see output like this below then you are good to go
+- if you see output like this image then you are good to go
 &nbsp; &nbsp; &nbsp; &nbsp; <kbd>![wslLV](images/wslLV.jpg)</kbd>
 
 <hr>
