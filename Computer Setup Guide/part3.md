@@ -107,4 +107,4 @@ core.editor=code --wait
 
 <hr>
 
-<h2 align="center"><a href="part1.md">PART 1</a> | <a href="part2.md">PART 2</a></h2>
+<h2 align="center"><a href="part4.md">PART 4</a> | <a href="part2.md">Previous</a></h2>
