@@ -11,13 +11,13 @@
 <hr>
 - run the downloaded file `VSCodeUserSetup-x64.exe` and don't forget to check the boxex ( check the image below ) 
 
-<br> <p align="center"> <img height="400px" width="480px" src="images/vscode.png" alt=""> </p>
+<br> <kbd><p align="center"> <img height="400px" width="480px" src="images/vscode.png" alt=""></kbd> </p>
 
 - Then, Close your terminal or ubuntu to take effect and run ubuntu again
 - in order to run the VSCode using ubuntu, we need to create a Demo project for testsing.
 
 ## To create a project follow these steps:
-from your UBUNTU run these commands line by line
+- from your UBUNTU run these commands:
 ```
 mkdir Demo
 cd Demo
@@ -27,16 +27,18 @@ then
 code .
 ```
 - when you hit `code .` you should see downloading... then your `VSCode` should be opened inside your current directory
-- Note: if you see a `TRUST` message please always click trust.
+- Note: if you see a `TRUST PROJECT` message please always click trust.
 
 <hr>
 
 # usefull extension for Visual studio code:
 - please install the following VSCode extensions.
-`Remote WSL` ( only for windows users - needed for the wsl enviroment)
-`liveserver` ( used to create a live server for your project and check the project chenges )
-`ESLint` ( Eslint is a visual studio code extension for identifying and reporting on patterns and errors found in you code )
-`markdownlint` (extend and enhance Visual Studio Code's built-in Markdown preview)
+- `Remote WSL` ( only for windows users - needed for the wsl enviroment)
+- `liveserver` ( used to create a live server for your project and check the project chenges )
+- `ESLint` ( Eslint is a visual studio code extension for identifying and reporting on patterns and errors found in you code )
+- `markdownlint` (extend and enhance Visual Studio Code's built-in Markdown preview)
 
 ## How to install VSCODE extensions ( check the image below )
-<br> <p align="center"> <img height="400px" width="480px" src="images/extensions.png" alt=""> </p>
+<br><kbd> <p align="center"> <img height="400px" width="480px" src="images/extensions.png" alt=""></kbd></p>
+
+<hr>
