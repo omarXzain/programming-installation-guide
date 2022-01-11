@@ -44,3 +44,5 @@ code .
 
 <hr>
 <h2 align="center"> THE END </h2>
+<hr>
+<a href="part1.md">PART 1</a> | <a href="part2.md">PART 2</a> | <a href="part3.md">PART 3</a>
