@@ -65,7 +65,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 # How to install Windows Terminal
 - Windows Terminal is an interactive program which allows you to type commands as instructions to control your computer.
 
-<h3 align="center"> install Windows Terminal by clicking the icon below using Microsoft Store </h3>
+<h3 align="center"> Download Windows Terminal by clicking the icon below using Microsoft Store </h3>
 
 <p align="center"> <kbd><a href="https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab"> <img height="210px" width="250px" src="images/Windows_Terminal.png" alt="Windows Terminal"></a></kbd>
 
