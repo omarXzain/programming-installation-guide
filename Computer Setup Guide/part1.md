@@ -171,4 +171,4 @@ sudo apt autoremove
 sudo apt-get install build-essential
 ```
 <hr>
-F<a href="part2.md">MOVE TO PART2</a>
+<a href="part2.md">MOVE TO PART2</a>
