@@ -110,7 +110,7 @@ wsl -l -v
 mv ~/.bashrc .bashrc.bak
 ```
 ```
-- mv ~/.bash_profile .bash_profile.bak
+mv ~/.bash_profile .bash_profile.bak
 ```
                                                                 
 ```
