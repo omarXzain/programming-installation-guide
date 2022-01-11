@@ -11,7 +11,7 @@
 <hr>
 - run the downloaded file `VSCodeUserSetup-x64.exe` and don't forget to check the boxex ( check the image below ) 
 
-<br> <kbd><p align="center"> <img height="400px" width="480px" src="images/vscode.png" alt=""></kbd> </p>
+<br> <p align="center"><kbd> <img height="400px" width="480px" src="images/vscode.png" alt=""></kbd> </p>
 
 - Then, Close your terminal or ubuntu to take effect and run ubuntu again
 - in order to run the VSCode using ubuntu, we need to create a Demo project for testsing.
@@ -40,7 +40,7 @@ code .
 
 ## How to install VSCODE extensions ( check the image below )
 - Click on the extensions icon from the left side and search for the mentioned extentions above and install them.
-<br> <kbd><p align="center"> <img height="400px" width="480px" src="images/extensions.png" alt=""></kbd></p>
+<br> <p align="center"> <kbd> <img height="400px" width="480px" src="images/extensions.png" alt=""></kbd></p>
 
 <hr>
 <h2 align="center"> THE END </h2>
