@@ -106,5 +106,5 @@ core.editor=code --wait
 <h2 align="center"> All DONE 😀 </h2>
 
 <hr>
-<a href="part4.md">MOVE TO PART4 | VSCODE</a>
 
+<h2 align="center"><a href="part1.md">PART 1</a> | <a href="part2.md">PART 2</a></h2>
