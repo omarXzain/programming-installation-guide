@@ -83,9 +83,36 @@ wsl --set-default-version 2
 
 <p align="center"> <kbd><a href="https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab"> <img height="230px" width="230px" src="images/ubuntu.png" alt="UBUNTU"></a></kbd>
 
+<hr>
+
 ## Now please these instructions:
 
 - Run Ubuntu after it's done from installing then wait ... you will see a confirmation for a successful installation ( check the image below )
 
 &nbsp; &nbsp; &nbsp; &nbsp; <kbd>![](images/ubuntuinstall.png)</kbd>
+
+### Be Carefull about the next step:
+- it will ask you to enter a new username: for example "student"
+- please note that the password is hidden, so make sure you are setting your password correctly.
+- set your password twice to verify it: ( make sure to memorize it ) `hint: use 123456 or 0000`
+<br>
+
+## Now we need to update ubuntu profile and create a backup for some files:
+
+### run these commands line by line
+```
+mv ~/.bashrc .bashrc.bak
+```
+```
+- mv ~/.bash_profile .bash_profile.bak
+```
+                                                                
+```
+mv ~/.profile .profile.bak
+```
+```
+mv ~/.zshrc .zshrc.bak
+```
+
+
 
