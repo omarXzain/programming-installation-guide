@@ -16,12 +16,16 @@ test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
 test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 ```
 ### it's just for testing the homebrew ( you should not see any result )
+
 <hr>
-## Now you you will run this command to check the homebrew enviroment if it's ready to use or not.
+
+## Now you will run this command to check the homebrew enviroment if it's ready to use or not.
+
 ```
 brew doctor
 ```
-- you should see a result telling you:
+
+- you should see a result like this:
 `Your system is ready to brew`
 - then you can continue to the next step
 
