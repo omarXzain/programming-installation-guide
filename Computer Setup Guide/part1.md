@@ -73,6 +73,12 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ```
 wsl --set-default-version 2
 ```
+- Now you need to check the WSL version, run the following command in Terminal:
+```
+wsl -l -v 
+``` 
+- if you see output like this below then you are good to go
+&nbsp; &nbsp; &nbsp; &nbsp; <kbd>![wslLV](images/wslLV.jpg)</kbd>
 
 <hr>
 
@@ -118,10 +124,24 @@ mv ~/.zshrc .zshrc.bak
 
 <hr>
                                         
-- Now run this command in Ubuntu ( areound 5mins <img height="30px" width="30px" src="images/time.png" alt="update your windows now"> )
+- Now run this command in Ubuntu ( it will take up to <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 5mins)
 ```
 curl -s https://github.com/omarXzain/LTUC-ASAC/blob/main/.profile>> ~/.profile
 ```
 
 - Once it finishes, `COMPLETLY CLOSE UBUNTU` then re-open it. 
-Your terminal appearance should be changed to a different set of colors and cool features
+- Your terminal appearance should be changed to a different set of colors and cool features
+
+<hr>
+
+# Reset Your Environment
+- The changes you just made will take effect every time you re-open your terminal. But right now, we want to see those changes immediately, so let's "source it" by running:
+```
+source ~/.profile
+```
+## NOTE:
+- You will see an error similar to this <h4>-bash: /home/linuxbrew/.linuxbrew/bin/brew: No such file or directory </h4>
+### This is ok for now, you can continue.
+
+`Close UBUNTU and run it again to take effect`
+
