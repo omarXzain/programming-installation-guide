@@ -114,5 +114,14 @@ mv ~/.profile .profile.bak
 mv ~/.zshrc .zshrc.bak
 ```
 
+- if you get "No such file or directory" error for some of them. don't worry it's NORMAL
 
+<hr>
+                                        
+- Now run this command in Ubuntu ( areound 5mins <img height="30px" width="30px" src="images/time.png" alt="update your windows now"> )
+```
+curl -s https://github.com/omarXzain/LTUC-ASAC/blob/main/.profile>> ~/.profile
+```
 
+- Once it finishes, `COMPLETLY CLOSE UBUNTU` then re-open it. 
+Your terminal appearance should be changed to a different set of colors and cool features
