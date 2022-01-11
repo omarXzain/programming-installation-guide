@@ -66,8 +66,45 @@ gh auth login
 <p align="center"><kbd><img height="350px" width="400px" src="images/verfiy-access.jpg" alt=""></kbd></p>
 - Click Authorize github and you should see this result
 <br> <p align="center"><kbd><img height="350px" width="400px" src="images/congrats.jpg" alt=""></kbd></p>
+- You can close the web browser and press enter in your terminal to continue.
 
+<hr>
+
+# Git Config
+### Now you need to connect your github email with your machine, so you can remote and push your work to github
+
+MAKE SURE TO replace `YOUR FULL NAME` and `YOUR EMAIL ADDRESS` with the same username and email from Your GitHub Account
+
+```
+git config --global user.name 'YOUR FULL NAME'
+```
+- Note: replace YOUR FULL NAME with your github username and copy it inside ubuntu
+```
+git config --global user.email 'YOUR EMAIL ADDRESS'
+```
+- Note: replace YOUR EMAIL ADDRESS with your github email and copy it inside ubuntu
+- copy your primary email from this link <a href="https://github.com/settings/emails">Check Your Github Email</a>
+
+### now continue running the commands normally: 
+```
+git config --global core.editor "code --wait"
+```
+```
+git config --global init.defaultbranch main
+```
+
+- let's make sure that all the settings are correct by running this command:
+```
+git config --list
+```
+- you should see an output like this ( but with your own email and username )
+```
+user.name=yourusername
+user.email=youremail@anymail.com
+core.editor=code --wait
+```
 <h2 align="center"> All DONE 😀 </h2>
 
 <hr>
-<a href="part4.md">MOVE TO PART4 VSCODE</a>
+<a href="part4.md">MOVE TO PART4 | VSCODE</a>
+
