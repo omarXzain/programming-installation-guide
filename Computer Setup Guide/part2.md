@@ -1,5 +1,6 @@
+# PART 2
 # Install <b> Homebrew </b>
-### Homebrew is a free and open source software package management system that simplifies the installation of software on your machine.
+#### Homebrew is a free and open source software package management system that simplifies the installation of software on your machine.
 
 - from your Ubuntu, run this command: ( it could take from 5 to 20 mins <img height="40px" width="30px" src="images/Time.png" alt="update your windows now">)
 ```
@@ -27,5 +28,21 @@ brew doctor
 ## Note:
 - if you get this warning below
 &nbsp; &nbsp; &nbsp; &nbsp; <kbd>![](images/brew-update.jpg)</kbd>
+- then run the following command ( this error means that we need to update the homebrew to the lastest version )
+```
+brew update
+```
+then run the brew doctor again just to make sure
+```
+brew doctor
+```
+
+### Now we need to install `gcc` which is required for the homebrew to install other applications
+- to do this run this command in ubuntu: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 5mins)
+```
+brew install gcc
+```
+<hr>
+- when it's done <a href="part3.md">MOVE TO PART 3 ( Node )</a>
 
 
