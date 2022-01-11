@@ -155,7 +155,7 @@ source ~/.profile
 sudo apt-get update
 ```
 - put your password, when prompted ( because we are using sudo )
-- once it's done, run this command: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 13mins )
+- once it's done, run this command: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 13 mins )
 ```
 sudo apt-get upgrade
 ```
@@ -167,7 +167,7 @@ sudo apt autoremove
 ```
 - This will remove any packages that are no longer needed.
 
-- and finally install the "Build Essentials" kit with this command: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 4 mins )
+- and finally install the `Build Essentials` kit with this command: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 4 mins )
 ```
 sudo apt-get install build-essential
 ```
