@@ -39,6 +39,8 @@ code .
 - `markdownlint` (extend and enhance Visual Studio Code's built-in Markdown preview)
 
 ## How to install VSCODE extensions ( check the image below )
-<br><kbd> <p align="center"> <img height="400px" width="480px" src="images/extensions.png" alt=""></kbd></p>
+- Click on the extensions icon from the left side and search for the mentioned extentions above and install them.
+<br> <kbd><p align="center"> <img height="400px" width="480px" src="images/extensions.png" alt=""></kbd></p>
 
 <hr>
+<h2 align="center"> THE END </h2>
