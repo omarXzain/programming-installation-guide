@@ -15,21 +15,21 @@
 <img style="border-radius: 30px; height="50px" width="200px" src="images/update10.jpg" alt="update your windows now">
 
 - Now, we need to enable the required services for your machine.
-- go to your windows search bar again and type >> `Turn Windows features on or off` << and hit enter, you should see a list of services ( check the image below )
+- go to your windows search bar again and type `Turn Windows features on or off` and hit enter, you should see a list of services ( check the image below )
 
 
-<img height="480px" width="600px" src="images/features.jpg" alt="update your windows now">
+&nbsp; &nbsp; &nbsp; &nbsp; <kbd><img height="480px" width="600px" src="images/features.jpg" alt="update your windows now"></kbd>
 
 ### now scroll down and check the boxes for:
 * `Virtual Machine Platform`
 * `Windows Hypervisor Platform`
 * `Windows Subsystem for Linux`
-
-
-### Note:
-#### if you want to run ubuntu inside a virtual machine ( virtualbox, vmware, etc ) then you need to enable extra services:
-* `Containers`
 * `Hyper-V`
+
+### Not important ( just in case ):
+#### if you want to run ubuntu inside a virtual machine ( virtualbox, vmware, etc ) then you need to enable extra service:
+* `Containers`
+
 
 
 - once you enabled the services click ok and then you are required to RESTART your machine in order to take effect.
@@ -145,3 +145,30 @@ source ~/.profile
 
 `Close UBUNTU and run it again to take effect`
 
+<hr>
+
+# Installing and Updating the Linux App Manager
+### you need to get the latest update for ubuntu to make sure that everything will work without any problems.
+
+- OPEN YOUR Ubuntu then copy-paste the commands line by line!
+```
+sudo apt-get update
+```
+- put your password, when prompted ( because we are using sudo )
+- once it's done, run this command:
+```
+sudo apt-get upgrade
+```
+- Press `Y` when prompted
+- Once it's done, run this
+```
+sudo apt autoremove 
+```
+- This will remove any packages that are no longer needed.
+
+- and finally install the "Build Essentials" kit with this command:
+```
+sudo apt-get install build-essential
+```
+<hr>
+F<a href="part2.md">MOVE TO PART2</a>
