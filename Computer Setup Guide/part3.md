@@ -53,7 +53,7 @@ brew install gh
 ```
 gh auth login
 ```
-#### Follow the steps carfully! it will ask you to choose diffrent settings ( check the image below and do the same )
+#### Follow the steps carfully! it will ask you to choose between diffrent settings ( check the image below and do the same )
 `MAKE SURE THAT YOU ARE ALREADY SIGNED IN WITH YOUR GITHUB ACCOUNT`
 <br> &nbsp; <p align="center"> <kbd>![](images/GithubSettings.png)</kbd></p>
 
