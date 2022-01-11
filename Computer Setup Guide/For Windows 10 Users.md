@@ -11,5 +11,5 @@
 <h3> NOTE: Make sure that you have a stable internet connection as you will be asked to download some stuff. </h3>
 
 
-![](https://www.pngkit.com/png/full/329-3295480_get-started-managing-your-savings-get-started-button.png)
+<a href=google.com>![](https://www.pngkit.com/png/full/329-3295480_get-started-managing-your-savings-get-started-button.png) </a>
 
