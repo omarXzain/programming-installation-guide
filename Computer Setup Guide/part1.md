@@ -6,13 +6,13 @@
 - go to your windows search bar and type `system information` to check your OS details and <b> hit ENTER </b>
 - look at the Version number as you can see in the image below
  
-![](images/winVersion.jpg)
+&nbsp; &nbsp; &nbsp; &nbsp; <kbd>![](images/winVersion.jpg)</kbd>
 
 - if it is lower than 19042 then you need to update, if it's the same number then no need to update the windows, we need this because it's required to make the WSL 2 work without any problems
 ## How to update windows?
 - simply click on this update button <a href="//ms-settings:windowsupdate?activationSource=SMC-IA-4027667">Hi</a>
 
-<img height="50px" width="200px" src="images/update10.jpg" alt="update your windows now">
+<img style="border-radius: 30px; height="50px" width="200px" src="images/update10.jpg" alt="update your windows now">
 
 - Now, we need to enable the required services for your machine.
 - go to your windows search bar again and type >> `Turn Windows features on or off` << and hit enter, you should see a list of services ( check the image below )
@@ -35,11 +35,11 @@
 - once you enabled the services click ok and then you are required to RESTART your machine in order to take effect.
 
 ### Note:
-- sometimes the virtual machine service is DISABLED from your machine, if so, open cmd.exe as adminstrator and run this command:
+- sometimes the virtual machine service is DISABLED from your machine, if so, go to your windows search bar, search for cmd.exe and run it as adminstrator and run this command:
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 ```
-- RESTART your machine after that and it should work for you.
+- RESTART your machine if prompted, it should work for you.
 
 ### now we need to run several commands using PowerShell
 - search for PowerShell from windows search bar and open `PowerShell.exe` and run the following commands:
@@ -52,19 +52,40 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ```
 - this will enable Virtual Machine Platform for WSL, if it ask for a restart then restart your machine to continue
 ---------------------------------------------
-### now you need to install windows subsytem Linux 
-- please click on the icon below to install it directly.
-## <a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi"> <img height="250px" width="250px" src="images/subsystemLinux.png" alt="WinsubsystemLinux"></a>
-- after it finishes downloading please open the link to download WSL2 update for your windows
+### Now you need to install windows subsytem Linux ( used to run the Linux environment on windows )
+<h3 align="center"> please click on the icon below to install it directly</h3>
+<p align="center"> <kbd><a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi"> <img height="250px" width="250px" src="images/subsystemLinux.png" alt="WinsubsystemLinux"></a></kbd>
+<h3 align="center">windows subsystem linux</h3>
+<br>
+- after it finishes downloading, open the downloaded file `wsl_update_x64.exe` and follow the setup instructions
 
-- install the downloaded file `wsl_update_x64.exe` and follow the setup instructions
+---------------------------------------------
 
-install windows Terminal from this link
-https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab
 
-after it's succefully installed open the terminal and run this command to set you enviroment to WSL version 2
+# How to install Windows Terminal
+- Windows Terminal is an interactive program which allows you to type commands as instructions to control your computer.
+
+<h3 align="center"> install Windows Terminal by clicking the icon below using Microsoft Store </h3>
+
+<p align="center"> <kbd><a href="https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab"> <img height="210px" width="250px" src="images/Windows_Terminal.png" alt="Windows Terminal"></a></kbd>
+
+- after it's succefully installed open the terminal and run this command to set you enviroment to WSL version 2
+```
 wsl --set-default-version 2
+```
 
-now we need to install UBUNTU from this link 
-https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab
+<hr>
+
+# How to install UBUNTU
+- Ubuntu for Windows runs and offer Linux developer tools on Windows.
+
+<h3 align="center"> install UBUNTU by clicking the icon below using Microsoft Store </h3>
+
+<p align="center"> <kbd><a href="https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab"> <img height="230px" width="230px" src="images/ubuntu.png" alt="UBUNTU"></a></kbd>
+
+## Now please these instructions:
+
+- Run Ubuntu after it's done from installing then wait ... you will see a confirmation for a successful installation ( check the image below )
+
+&nbsp; &nbsp; &nbsp; &nbsp; <kbd>![](images/ubuntuinstall.png)</kbd>
 
