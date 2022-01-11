@@ -1,1 +1,31 @@
+# Install <b> Homebrew </b>
+### Homebrew is a free and open source software package management system that simplifies the installation of software on your machine.
+
+- from your Ubuntu, run this command: ( it could take from 5 to 20 mins <img height="40px" width="30px" src="images/Time.png" alt="update your windows now">)
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+- please note that you will be prompted several times with `yes or no` Accept all the defaults and say `Yes` when prompted
+
+- after it's done, enter these commands, one at a time in your UBUNTU to test the homebrew settings:
+```
+test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
+```
+```
+test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+```
+### it's just for testing the homebrew ( you should not see any result )
+<hr>
+## Now you you will run this command to check the homebrew enviroment if it's ready to use or not.
+```
+brew doctor
+```
+- you should see a result telling you:
+`Your system is ready to brew`
+- then you can continue to the next step
+
+## Note:
+- if you get this warning below
+&nbsp; &nbsp; &nbsp; &nbsp; <kbd>![](images/brew-update.jpg)</kbd>
+
 
