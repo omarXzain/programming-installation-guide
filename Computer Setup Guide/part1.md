@@ -131,7 +131,7 @@ mv ~/.zshrc .zshrc.bak
                                         
 - Now run this command in Ubuntu ( it will take up to <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 5mins)
 ```
-curl -s https://github.com/omarXzain/LTUC-ASAC/blob/main/.profile>> ~/.profile
+curl -s https://raw.githubusercontent.com/omarXzain/LTUC-ASAC/main/.profile >> ~/.profile
 ```
 
 - Once it finishes, `COMPLETLY CLOSE UBUNTU` then re-open it again. 
