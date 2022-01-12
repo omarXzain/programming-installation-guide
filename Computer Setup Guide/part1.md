@@ -1,24 +1,27 @@
 
-# How to install Ubuntu and WSL Version 2 
+<h1 align="center">  How to install Ubuntu & WSL Version 2 </h1>
+
 ## Part 1
+
 ### Please follow the instructions line by line carfully:
+
 - before we start the installation part please make sure that you have the latest update for windows 10 in order to make the WSL enviroment to work
 - go to your windows search bar and type `system information` to check your OS details and <b> hit ENTER </b>
 - look at the Version number as you can see in the image below
  
-&nbsp; &nbsp; &nbsp; &nbsp; <kbd>![](images/winVersion.jpg)</kbd>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <kbd>![](images/winVersion.jpg)</kbd>
 
 - if it is lower than 19042 then you need to update, if it's the same number then no need to update the windows, we need this because it's required to make the WSL 2 work without any problems
 ## How to update windows?
 - simply click on this update button <a href="//ms-settings:windowsupdate?activationSource=SMC-IA-4027667">Hi</a>
 
-<img style="border-radius: 30px; height="50px" width="200px" src="images/update10.jpg" alt="update your windows now">
+<p align="center"><img style="border-radius: 30px; height="50px" width="200px" src="images/update10.jpg" alt="update your windows now">
 
 - Now, we need to enable the required services for your machine.
 - go to your windows search bar again and type `Turn Windows features on or off` and hit enter, you should see a list of services ( check the image below )
 
 
-&nbsp; &nbsp; &nbsp; &nbsp; <kbd><img height="480px" width="600px" src="images/features.jpg" alt="update your windows now"></kbd>
+<p align="center"> <kbd><img height="480px" width="600px" src="images/features.jpg" alt="update your windows now"></kbd></p>
 
 ### now scroll down and check the boxes for:
 * `Virtual Machine Platform`
