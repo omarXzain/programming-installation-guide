@@ -4,7 +4,7 @@
 
 - Please make sure to read the steps line by line to prevent such problems
 
-- This installation part should take 1 hour or more depending on your internet speed and your machine specification
+- This installation part should take less than 1 hour depending on your internet speed and your machine specification
 
 - You do not need to understand what this process is doing.
 
