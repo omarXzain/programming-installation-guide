@@ -10,7 +10,7 @@
 
 <h3> NOTE: Make sure that you have a stable internet connection as you will be asked to download some stuff. </h3>
 
-<h2 align="center"> please choose your system below</h2>
+<h2 align="center"> Please Choose Your System Below</h2>
 
 <hr>
 
