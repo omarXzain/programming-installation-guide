@@ -61,7 +61,7 @@ gh auth login
 
 <p align="center"><kbd><img height="350px" width="400px" src="images/putcode.jpg" alt=""></kbd></p>
 
-- Github will prompt you for the one time code. Enter in the 8 code insde the boxes and click continue.
+- Github will prompt you for the one time code. Enter your code inside the boxes and click continue.
 
 <p align="center"><kbd><img height="350px" width="400px" src="images/verfiy-access.jpg" alt=""></kbd></p>
 - Click Authorize github and you should see this result
