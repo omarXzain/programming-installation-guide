@@ -47,6 +47,6 @@ brew doctor
 brew install gcc
 ```
 <hr>
-- when it's done <a href="part3.md">MOVE TO PART 3 ( Node )</a>
+- when it's done <a href="part3.md">MOVE TO PART 3 ( Node )</a> | <a href="part1.md">Previous Page </a></h2>
 
 
