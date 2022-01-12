@@ -14,7 +14,7 @@
 
 <hr>
 
-<p align="center"> <a href="part1.md"><kbd><img height="150px" width="150px" src="images/win10.png" alt=""></a> </kbd> &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://webassets.inman.com/wp-content/uploads/2019/10/Untitled-design-2019-10-29T153346.079.jpg"> <kbd> <img height="150px" width="150px" src="images/linux.png" alt=""></kbd></a></p>
+<p align="center"> <a href="part1.md"><kbd><img height="150px" width="150px" src="images/win10.png" alt=""></a> </kbd> &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://ayyoubk.github.io/setup-development-environment/"> <kbd> <img height="150px" width="150px" src="images/linux.png" alt=""></kbd></a></p>
 
 <hr>
 <h2></h2>
