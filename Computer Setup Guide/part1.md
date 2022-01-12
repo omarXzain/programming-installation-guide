@@ -1,5 +1,5 @@
 
-<h1 align="center">  How to install Ubuntu & WSL Version 2 </h1>
+<h1 align="center"> How to install Ubuntu & WSL Version 2 </h1>
 
 ## Part 1
 
@@ -11,13 +11,15 @@
  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <kbd>![](images/winVersion.jpg)</kbd>
 
-- if it is lower than 19042 then you need to update, if it's the same number then no need to update the windows, we need this because it's required to make the WSL 2 work without any problems
-## How to update windows?
-- simply click on this update button <a href="//ms-settings:windowsupdate?activationSource=SMC-IA-4027667">Hi</a>
+- if it is lower than `19042` then you need to update, if it's the same number then no need to update the windows, we need this because it's required to make the WSL 2 work without any problems
 
-<p align="center"><img style="border-radius: 30px; height="50px" width="200px" src="images/update10.jpg" alt="update your windows now">
+## How to update windows 10 or 11?
+- you can go to windows search bar and type `check for updates` and it will redirect you to update the system ( it will take some time to finish so be patient )
+- if you are facing some technical issues, download the `update helper tool` from Microsoft from this link <a href="https://go.microsoft.com/fwlink/?LinkID=799445">Windows 10 Update Tool</a>
 
-- Now, we need to enable the required services for your machine.
+<hr>
+
+### Now, we need to enable the required services for your machine.
 - go to your windows search bar again and type `Turn Windows features on or off` and hit enter, you should see a list of services ( check the image below )
 
 
