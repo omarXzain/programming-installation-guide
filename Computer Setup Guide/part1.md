@@ -54,7 +54,9 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 
 
 <hr>
-# important!
+ 
+# important!!!
+ 
 ### Now we need to run several commands using PowerShell 
 - search for `PowerShell` from windows search bar and open `PowerShell.exe` and run it `as Adminstartor` then run the following commands:
 ```
