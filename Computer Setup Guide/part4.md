@@ -42,7 +42,7 @@ code .
 - Click on the extensions icon from the left side and search for the mentioned extentions above and install them.
 <br> <p align="center"> <kbd> <img height="400px" width="480px" src="images/extensions.png" alt=""></kbd></p>
 
-### let's make sure that everything is done as it should be:
+### Finally, let's make sure that everything is done as it should be:
 - run the following commands
 ```
 code --version
