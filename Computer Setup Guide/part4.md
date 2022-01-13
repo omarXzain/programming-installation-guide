@@ -55,7 +55,7 @@ x64`
 ```
 node --version
 ```
-- you should get a result like this `v16.13.1` or higher
+- you should get a result like this `v14.13.1` or higher
 - let's check the NPM version 
 ```
 npm --version
