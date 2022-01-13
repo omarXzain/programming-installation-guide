@@ -46,7 +46,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 ```
 - RESTART your machine if prompted, it should work for you ( if it does SKIP this part below and start from PowerShell )
 - if it didn't work, this means that you need to enable Virtualization (VT-x) in Bios, please note this might be differnt from machine to machine but it's the same proccess
-1) Reboot your machine and Press the BIOS Key several times to boot. ...
+1) Reboot your machine and Press the BIOS Key, try `DEL or F9 or F2 or ESC` several times to boot. ...
 2) Search for the section for CPU configuration Or it could be inside Advanced configurations.
 3) Find the Settings for Virtualization or VT-x and hit enter and Change it from DISABLED to ENABLED
 4) Exit Your BIOS by pressing F10 and say yes and your machine should be restarted now.
@@ -54,7 +54,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 
 
 <hr>
-
+# important!
 ### Now we need to run several commands using PowerShell 
 - search for `PowerShell` from windows search bar and open `PowerShell.exe` and run it `as Adminstartor` then run the following commands:
 ```
@@ -87,12 +87,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ```
 wsl --set-default-version 2
 ```
-- Now you need to check the WSL version, run the following command in Terminal:
-```
-wsl -l -v 
-``` 
-- if you see output like this image then you are good to go
-&nbsp; &nbsp; &nbsp; &nbsp; <kbd>![wslLV](images/wslLV.jpg)</kbd>
+
 
 <hr>
 
@@ -116,6 +111,15 @@ wsl -l -v
 - please note that the password is hidden, so make sure you are setting your password correctly.
 - set your password twice to verify it: ( make sure to memorize it ) `hint: use 123456 or 0000`
 <br>
+
+- open `Windows Terminal` and run this command ( this to check UBUNTU if it's running with WSL version 2 )
+```
+wsl -l -v 
+``` 
+- if you see output like this image then you are good to go
+&nbsp; &nbsp; &nbsp; &nbsp; <kbd>![wslLV](images/wslLV.jpg)</kbd>
+
+<hr>
 
 ## Now we need to update ubuntu profile and create a backup for some files:
 
