@@ -63,7 +63,7 @@ npm --version
 - you should get a result like this `6.14.13` or higher
 - let's check the git version
 ```
-- git --version
+git --version
 ```
 - you should get a result like this `git version 2.32.0` or higher
 
