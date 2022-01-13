@@ -56,7 +56,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 <hr>
 
 ### Now we need to run several commands using PowerShell 
-- search for `PowerShell` from windows search bar and open `PowerShell.exe` and run the following commands:
+- search for `PowerShell` from windows search bar and open `PowerShell.exe` and run it `as Adminstartor` then run the following commands:
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
