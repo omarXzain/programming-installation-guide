@@ -46,7 +46,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 ```
 - RESTART your machine if prompted, it should work for you ( if it does SKIP this part below and start from PowerShell )
 - if it didn't work, this means that you need to enable Virtualization (VT-x) in Bios, please note this might be differnt from machine to machine but it's the same proccess
-1) Reboot your machine and Press the BIOS Key, try `DEL or F9 or F2 or ESC` several times to boot. ...
+1) Reboot your machine and Press the BIOS Key, try `DEL or F9 or F2 or or F12 or ESC` several times to boot, or you can simply search in google "how to boot into BIOS <put your laptop brand>
 2) Search for the section for CPU configuration Or it could be inside Advanced configurations.
 3) Find the Settings for Virtualization or VT-x and hit enter and Change it from DISABLED to ENABLED
 4) Exit Your BIOS by pressing F10 and say yes and your machine should be restarted now.
