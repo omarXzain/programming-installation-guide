@@ -65,9 +65,8 @@ npm --version
 ```
 - git --version
 ```
-git version 2.32.0
 - you should get a result like this `git version 2.32.0` or higher
-- 
+
 <hr>
 <h2 align="center"> THE END </h2>
 <hr>
