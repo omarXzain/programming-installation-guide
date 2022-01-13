@@ -42,6 +42,32 @@ code .
 - Click on the extensions icon from the left side and search for the mentioned extentions above and install them.
 <br> <p align="center"> <kbd> <img height="400px" width="480px" src="images/extensions.png" alt=""></kbd></p>
 
+### let's make sure that everything is done as it should be:
+- run the following commands
+```
+code --version
+```
+- you should get a result similar to this 
+`1.63.2
+899d4837hc95423fb7e10jnskjd52050e30ba3
+x64`
+- let's check the node version
+```
+node --version
+```
+- you should get a result like this `v16.13.1` or higher
+- let's check the NPM version 
+```
+npm --version
+```
+- you should get a result like this `6.14.13` or higher
+- let's check the git version
+```
+- git --version
+```
+git version 2.32.0
+- you should get a result like this `git version 2.32.0` or higher
+- 
 <hr>
 <h2 align="center"> THE END </h2>
 <hr>
