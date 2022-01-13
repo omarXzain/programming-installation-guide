@@ -38,11 +38,11 @@ node --version
 ```
 brew install git || brew upgrade git
 ```
-## Now we need to configure the settings and connect you github account with your machine
+## Now we need to configure the settings and connect your github account with your machine
 
 ### Setup GitHub for "Authentication"
 
-- first, make sure that you already have a github account, if not then create one from here <a href="https://github.com/signup?source=login">GITHUB.com</a>
+- first, `make sure that you already have a github account` if not then create one from here <a href="https://github.com/signup?source=login">GITHUB.com</a> and verify it account from your email ( choose a unique username )
 
 - install CLI ( Command line interface ) by completing the following steps from `UBUNTU`: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt=""> 4 mins)
 ```
