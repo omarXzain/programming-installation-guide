@@ -89,7 +89,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ```
 wsl --set-default-version 2
 ```
-
+- you should get this result `For information on key differences with WSL 2 please visit https://aka.ms/wsl2`
 
 <hr>
 
