@@ -60,7 +60,7 @@ node --version
 ```
 npm --version
 ```
-- you should get a result like this `6.14.13` or higher
+- you should get a result like this `8.1.2` or higher
 - let's check the git version
 ```
 git --version
