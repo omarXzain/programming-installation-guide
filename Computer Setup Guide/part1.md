@@ -40,16 +40,19 @@
 - once you enabled the services click ok and then you are required to RESTART your machine in order to take effect.
 
 ### Note:
-- sometimes the virtual machine service is DISABLED from your machine, if so, go to your windows search bar, search for cmd.exe and run it as adminstrator and run this command:
+- sometimes the virtual machine service is DISABLED from your machine, if so, go to your windows search bar, search for `cmd.exe` and run it as adminstrator and run this command:
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 ```
+<hr>
+
 - RESTART your machine if prompted, it should work for you ( if it does SKIP this part below and start from PowerShell )
 - if it didn't work, this means that you need to enable Virtualization (VT-x) in Bios, please note this might be differnt from machine to machine but it's the same proccess
-1) Reboot your machine and Press the BIOS Key, try `DEL or F9 or F2 or or F12 or ESC` several times to boot, or you can simply search in google "how to boot into BIOS <put your laptop brand>
+1) Reboot your machine and Press the BIOS Key, try `DEL or F9 or F1 or F2 or or F12 or ESC` several times to boot, OR you can simply search in google "how to boot into BIOS `put your laptop brand name`" and search.
 2) Search for the section for CPU configuration Or it could be inside Advanced configurations.
 3) Find the Settings for Virtualization or VT-x and hit enter and Change it from DISABLED to ENABLED
-4) Exit Your BIOS by pressing F10 and say yes and your machine should be restarted now.
+4) Exit Your BIOS by pressing F10 and say yes and your machine should be restarted now. `ALL DONE`
+ #### Note:
 - You can also refer to this vedio for more information about how to enable Virtualization in BIOS <a href="https://www.youtube.com/watch?v=MOuTxfzCvMY">LINK</a>
 
 
