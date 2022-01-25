@@ -1,4 +1,3 @@
-
 # Special Access From The Developer
 export ASAC=`wslvar username`
 magic=${ASAC}
