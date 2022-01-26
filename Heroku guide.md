@@ -36,3 +36,6 @@ const client = new pg.Client({
 **Step 7:** Continue app development
 - Your Heroku database is running in the cloud. It's schema and data are not connected to your development environment. 
 - If you change your schema locally, you will also need to make the same change in the production environment (your Heroku app). 
+
+# Note
+- Don't forget to add in the config vars on Heroku settings all the keys (api_key) that are added in the .env file in the project.
