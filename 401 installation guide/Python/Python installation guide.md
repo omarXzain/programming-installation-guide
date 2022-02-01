@@ -22,7 +22,8 @@
 ## Configurations guide
 ### open `UBUNTU` and follow the commands step by step:
 
-- copy this command and paste it in UBUNTU
+- copy this command and paste it in UBUNTU ( Backup & new .profile creation )
+
 ```
 mv .profile .oldProfile.bak && curl -s https://raw.githubusercontent.com/omarXzain/LTUC-ASAC/main/401%20installation%20guide/Python/.profile >> ~/.profile
 ```
