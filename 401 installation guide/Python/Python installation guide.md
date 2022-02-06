@@ -38,3 +38,6 @@ sudo apt-get install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 - Type `Yes` if asked if you want to make zsh the default shell.
+
+
+
