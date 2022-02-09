@@ -132,18 +132,12 @@ wsl -l -v
 ```
 mv ~/.bashrc .bashrc.bak
 ```
-```
-mv ~/.bash_profile .bash_profile.bak
-```
                                                                 
 ```
 mv ~/.profile .profile.bak
 ```
-```
-mv ~/.zshrc .zshrc.bak
-```
 
-- if you get "No such file or directory" error for some of them. don't worry it's NORMAL
+- you should not get any output ( it's just for backup .profile & .bashrc)
 
 <hr>
                                         
