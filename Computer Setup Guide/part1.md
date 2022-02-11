@@ -76,6 +76,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 <p align="center"> <kbd><a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi"> <img height="250px" width="250px" src="images/subsystemLinux.png" alt="WinsubsystemLinux"></a></kbd>
 <h3 align="center">windows subsystem linux</h3>
 <br>
+
 - after it finishes downloading, open the downloaded file `wsl_update_x64.exe` and follow the setup instructions
 
 ---------------------------------------------
