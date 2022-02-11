@@ -28,7 +28,7 @@ then
 code .
 ```
 - when you hit `code .` you should see downloading... then your `VSCode` should be opened inside your current directory
-- Note: if you see a `TRUST PROJECT` message please always click trust.
+- Note: if you see a `TRUST PROJECT` message please click trust and check the always trust box.
 
 <hr>
 
