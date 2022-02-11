@@ -6,7 +6,7 @@
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
-- please note that you will be prompted several times with `yes or no` Accept all the defaults and say `Yes` when prompted
+- put ubuntu password when prompted, then you need to press `ENTER` to install Homebrew.
 
 - after it's done, enter these commands, one at a time in your UBUNTU to test the homebrew settings:
 ```
