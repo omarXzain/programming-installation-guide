@@ -8,7 +8,7 @@
 ```
 - put ubuntu password when prompted, then you need to press `ENTER` to install Homebrew.
 
-- after it's done, enter these commands, one at a time in your UBUNTU to test the homebrew settings:
+- after it's done `CLOSE UBUNTU` then open it again and enter these commands, one at a time in your UBUNTU to test the homebrew settings:
 ```
 test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
 ```
