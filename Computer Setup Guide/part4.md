@@ -9,6 +9,7 @@
 <h3 align="center">Visual studio code</h3>
 
 <hr>
+
 - run the downloaded file `VSCodeUserSetup-x64.exe` and don't forget to check the boxex ( check the image below ) 
 
 <br> <p align="center"><kbd> <img height="400px" width="480px" src="images/vscode.png" alt=""></kbd> </p>
