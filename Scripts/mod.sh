@@ -1,4 +1,4 @@
 #!/etc/profile.d bash
 #
-mv update-motd.sh update-motd.shx
+cd /mnt
 echo Done :D
