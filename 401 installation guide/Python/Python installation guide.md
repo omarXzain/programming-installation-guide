@@ -29,7 +29,7 @@ mv .profile .oldProfile.bak && curl -s https://raw.githubusercontent.com/omarXza
 ```
 
 ## Install Zsh ( Unix shell used as command interpreter )
-- run thsese commands from `UBUNTU`
+- run these commands from `UBUNTU`
 ```
 sudo apt-get install zsh
 ```
