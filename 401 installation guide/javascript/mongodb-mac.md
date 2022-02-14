@@ -5,21 +5,29 @@
 
 - To download the official Homebrew formula for MongoDB and the Database Tools, run the following command in your macOS Terminal:
 
-	``brew tap mongodb/brew``
+```
+brew tap mongodb/brew
+```
 
-	- To install MongoDB, run the following command in your macOS Terminal application:
+- To install MongoDB, run the following command in your macOS Terminal application:
 
-	``brew install mongodb-community``
+```
+brew install mongodb-community
+```
 
 - Now we will need to start Mongo database server so that we can make sure the installation went well by running the following command in your macOS Terminal:
 
-	``brew services start mongodb-community``
+```
+brew services start mongodb-community
+```
 
-	- **Run the following command in your macOS Terminal to start mongo console .**
+- **Run the following command in your macOS Terminal to start mongo console .**
 
-	``mongo``
+```
+mongo
+```
 
-	you will see something similar to this:
+you will see something similar to this:
 
 `````
 MongoDB shell version v3.6.3

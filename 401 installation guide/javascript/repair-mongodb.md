@@ -2,26 +2,41 @@
 
 - Run the following command in your Terminal to stop MongoDb server:
 
-	`sudo service mongodb stop`
+```
+sudo service mongodb stop
+```
 
 - We want to remove all MongoDb packages that we installed previously.
   
-	`sudo apt-get purge mongodb-org*`
+```
+sudo apt-get purge mongodb-org*
+```
 
 - Also, we should remove MongoDb databases and log files. Run the following commands one after another:
 		
-	`sudo rm -r /var/log/mongodb`  
-	`sudo rm -r /var/lib/mongodb`  
+```
+sudo rm -r /var/log/mongodb
+```  
+```
+sudo rm -r /var/lib/mongodb
+```  
 
-	or by using one command  
-	`sudo rm -r /var/log/mongodb /var/lib/mongodb`
+or by using one command  
+```
+sudo rm -r /var/log/mongodb /var/lib/mongodb'
+```
 
 - To make sure that everything is uninstalled, run the following commands one after another: 
 
-	`sudo apt-get purge mongodb mongodb-clients mongodb-server mongodb-dev`  
-	`sudo apt-get purge mongodb-10gen`  
-	`sudo apt-get autoremove`  
-
+```
+sudo apt-get purge mongodb mongodb-clients mongodb-server mongodb-dev`  
+```
+```
+sudo apt-get purge mongodb-10gen
+```  
+```
+sudo apt-get autoremove`  
+```
 Some of those commands might fail, depending on what packages you actually have installed, but that's okay.
 
 This should also remove your config from /etc/mongodb.conf.

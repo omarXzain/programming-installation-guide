@@ -7,24 +7,36 @@
 
 - **First thing we want to update your Ubuntu packages.**
 
-	``sudo apt-get update``
+```
+sudo apt-get update
+```
 
 - **To Install MongoDB packages. run the command:**
 
-	``sudo apt-get install mongodb``
+```
+sudo apt-get install mongodb
+```
 
 - **Confirm installation and get the version number.**
 
-	``mongo --version``
-
-	the result will be similar to this:
 ```
-	MongoDB shell version v3.6.3
+mongo --version
+```
+
+the result will be similar to this:
+
+```
+MongoDB shell version v3.6.3
 ```
 
 - **Run the server.**
 
-	``sudo service mongodb start``
+```
+sudo service mongodb start
+```
+
+
+the result will be similar to this:
 
 ```	
 * Starting database mongodb                                 [ OK ]
@@ -32,11 +44,13 @@
 
 - **Run the command to start mongo console.**
 
-	``mongo``
+```
+	mongo
+```
 
-	you will see something similar to this:
+you will see something similar to this:
 
-`````
+```
 MongoDB shell version v3.6.3
 connecting to: mongodb://127.0.0.1:27017
 MongoDB server version: 3.6.3
@@ -53,17 +67,20 @@ Server has startup warnings:
 2022-02-14T14:08:42.797+0200 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
 2022-02-14T14:08:42.797+0200 I CONTROL  [initandlisten]
 >
-`````
+```
 
 -  **Check the service status.**
 
-  	``sudo service mongodb status``
+```
+		sudo service mongodb status
+```
+
 
 	
-	<hr>
-	<br>
-	In case that you face any problem after you install MongoDb.
+<hr>
+<br>	
+In case that you face any problem after you install MongoDb.
 
-	 [Click Here To Repair](repair-mongodb.md)
+[Click Here To Repair](repair-mongodb.md)
 
-	 <hr>
+<hr>

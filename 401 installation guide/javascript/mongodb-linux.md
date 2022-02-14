@@ -4,27 +4,44 @@
 ### Please open your Terminal and run the following commands one after another to install the MongoDB client and server:
 
 
-- ``wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -``
-- ``sudo apt-get install gnupg``
-- ``echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list``
-- ``sudo apt-get update``
-- ``sudo apt-get install -y mongodb-org``
+```
+wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+```
+```
+sudo apt-get install gnupg
+```
+```
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+```
+```
+sudo apt-get update
+```
+```
+sudo apt-get install -y mongodb-org
+```
 
 After installation completes, we’ll need to setup MongoDB as a **service** so that it can easily be restarted. Enter the following commands, in order, to set this up:
 
-- ``sudo curl -s https://raw.githubusercontent.com/mongodb/mongo/master/debian/init.d -o /etc/init.d/mongod``
-- ``sudo chmod 755 /etc/init.d/mongod``
-- ``sudo service mongod start``
+```
+sudo curl -s https://raw.githubusercontent.com/mongodb/mongo/master/debian/init.d -o /etc/init.d/mongod
+```
+```
+sudo chmod 755 /etc/init.d/mongod
+```
+```
+sudo service mongod start
+```
 
 **Note that: On Ubuntu Linux**, mongo will now automatically restart on every reboot.
 
 
  **Run the following command in your Ubuntu Linux to start mongo console.**
 
-- ``mongo``
+```
+mongo
+```
 
-
-	you will see something similar to this:
+you will see something similar to this:
 
 `````
 MongoDB shell version v3.6.3
