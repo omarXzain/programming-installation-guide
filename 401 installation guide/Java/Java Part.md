@@ -5,9 +5,16 @@
 ### Please make sure that you have already finished the installation part from <a href="../../Computer Setup Guide/installation tutorial.md">Here</a> in order to continue to Java part. if you do, then you can move to the next step.
 
 ## Needed Tools:
-- you have to install the required tools. then, you'll do the configurations step by step.
+- you have to install the required tools. then, you'll do the configurations step by step. ( we will use Java Development Kit (JDK 11) in our course )
 
-<h2 align="center"> install IntelliJ by clicking the icon below </h2>
+
+<h3 align="center"> install JDK 11 by clicking the icon below </h3>
+<p align="center"> <kbd><a href="https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14.1%2B1/OpenJDK11U-jdk_x64_windows_hotspot_11.0.14.1_1.msi"> <img height="177px" width="177px" src="images/JDK.jpg" alt="IntelliJ"></a></kbd>
+
+  
+## IntelliJ IDEA
+is an integrated development environment written in Java for developing computer software
+<h3 align="center"> install IntelliJ by clicking the icon below </h3>
 
 <p align="center"> <kbd><a href="https://download-cdn.jetbrains.com/idea/ideaIC-2021.3.2.exe"> <img height="177px" width="177px" src="images/IntelliJ.png" alt="IntelliJ"></a></kbd>
 
@@ -19,13 +26,15 @@ Note: a restart is required to update the path variables for IntelliJ
 
 <hr>
 
+## Gradle
+Gradle is a build automation tool for software development. It controls the development process in the tasks of compilation and packaging to testing, deployment.
 
 <h2 align="center"> install Gradle by clicking the icon below </h2>
 <p align="center"> <kbd><a href="https://services.gradle.org/distributions/gradle-7.4-bin.zip"> <img height="177px" width="177px" src="images/gradle.png" alt="Gradle"></a>
 
 - after you download gradle then extract the file `gradle-7.4` to local disk `C` then navigate to this path `C:\gradle-7.4\bin` and COPY IT 
 - right-click on the Computer icon ( This PC<img height="40px" width="44px" src="images/this-pc.png" alt="This Pc"> )  then click Properties -> Advanced System Settings -> Environmental Variables.
-- Under `System Variables` double click `Path`, click on new and paste `C:\gradle-7.4\bin. then Click OK to save. ( check the image below )
+- Under `System Variables` double click `Path`, click on new and paste `C:\gradle-7.4\bin` then Click OK to save. ( check the image below )
 
 <p align="center"><kbd> <img height="400px" width="480px" src="images/system-env.png" alt="IntelliJ-config"></kbd> </p>
   
@@ -59,3 +68,6 @@ gradle -v
 java --version
 ```
 - you should get a result like this `openjdk 11.0.14.1` or higher
+
+  <hr>
+<h2 align="center"> THE END </h2>
