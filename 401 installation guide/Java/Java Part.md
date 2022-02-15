@@ -1,8 +1,8 @@
+<img  src="images/line-down2.png" alt="Java">
+<p align="center"><img  src="images/welcome.png" alt="Java"></p>
+<img  src="images/line-down2.png" alt="Java">
 
-<img  src="images/line-down.png" alt="Java">
-<h3 align="center"><img height="100px" width="100px" src="images/Java.png" alt="Java"> Welcome to the advanced JAva installtion guide <img height="100px" width="100px" src="images/Java.png" alt="Java"></h3> 
-<img  src="images/line-up.png" alt="Java">
-## Please make sure that you have already finished the installation part from <a href="../../Computer Setup Guide/installation tutorial.md">Here</a> in order to continue to Java part. if you do, then you can move to the next step.
+### Please make sure that you have already finished the installation part from <a href="../../Computer Setup Guide/installation tutorial.md">Here</a> in order to continue to Java part. if you do, then you can move to the next step.
 
 ## Needed Tools:
 - you have to install the required tools. then, you'll do the configurations step by step.
@@ -47,11 +47,11 @@ sudo apt-get install default-jdk
 ```
 gradle -v
 ```
-- you should get a result similar to this `7.4` or higher
+- you should get a result similar to this `Gradle 7.4` or higher
   
   
-- let's check the node version
+- let's check the Java version
 ```
-javac --version
+java --version
 ```
-- you should get a result like this `v16.13.1` or higher
+- you should get a result like this `openjdk 11.0.14.1` or higher
