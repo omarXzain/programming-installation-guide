@@ -23,7 +23,11 @@ Note: a restart is required to update the path variables for IntelliJ
 <h2 align="center"> install Gradle by clicking the icon below </h2>
 <p align="center"> <kbd><a href="https://services.gradle.org/distributions/gradle-7.4-bin.zip"> <img height="177px" width="177px" src="images/gradle.png" alt="Gradle"></a>
 
-- How to 
+- after you download gradle then extract the file `gradle-7.4` to local disk `C` then navigate to this path `C:\gradle-7.4\bin` and COPY IT 
+- right-click on the Computer icon ( This PC<img height="40px" width="44px" src="images/this-pc.png" alt="This Pc"> )  then click Properties -> Advanced System Settings -> Environmental Variables.
+- Under `System Variables` double click `Path`, click on new and paste `C:\gradle-7.4\bin. then Click OK to save. ( check the image below )
+
+<p align="center"><kbd> <img height="400px" width="480px" src="images/system-env.png" alt="IntelliJ-config"></kbd> </p>
   
   
 ## Configurations guide
