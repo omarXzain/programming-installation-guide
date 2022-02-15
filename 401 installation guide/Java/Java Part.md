@@ -69,6 +69,6 @@ java --version
 ```
 - you should get a result like this `openjdk 11.0.14.1` or higher
 
-  <hr>
-<h2 align="center"> THE END </h2>
+<hr>
+<h3 align="center"> THE END </h3>
 <hr>
