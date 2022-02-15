@@ -11,6 +11,7 @@
 <h3 align="center"> install JDK 11 by clicking the icon below </h3>
 <p align="center"> <kbd><a href="https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14.1%2B1/OpenJDK11U-jdk_x64_windows_hotspot_11.0.14.1_1.msi"> <img height="177px" width="177px" src="images/JDK.jpg" alt="IntelliJ"></a></kbd>
 
+
   
 ## IntelliJ IDEA
 is an integrated development environment written in Java for developing computer software
@@ -38,6 +39,8 @@ Gradle is a build automation tool for software development. It controls the deve
 
 <p align="center"><kbd> <img height="400px" width="480px" src="images/system-env.png" alt="IntelliJ-config"></kbd> </p>
   
+#### NOTE: if you are a Mac user then run `brew install gradle` to install gradle
+- if you are a linux user then refer to the linux part here <a href="https://gradle.org/install/#manually">Here</a>
   
 ## Configurations guide
 ### open `UBUNTU` and follow the commands line by line:
