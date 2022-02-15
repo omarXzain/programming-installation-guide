@@ -1,5 +1,5 @@
 <img  src="images/line-down2.png" alt="Java">
-<p align="center"><img  src="images/welcome.png" alt="Java"></p>
+<p align="center"><img  src="images/welcome1.png" alt="Java"></p>
 <img  src="images/line-down2.png" alt="Java">
 
 ### Please make sure that you have already finished the installation part from <a href="../../Computer Setup Guide/installation tutorial.md">Here</a> in order to continue to Java part. if you do, then you can move to the next step.
