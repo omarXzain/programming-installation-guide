@@ -75,3 +75,5 @@ java --version
 <hr>
 <h3 align="center"> THE END </h3>
 <hr>
+
+  <h3> <a href="Android Part.md" >Go To Android Part </a> </h3>
