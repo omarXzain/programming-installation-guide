@@ -39,13 +39,13 @@ sudo service mongodb start
 the result will be similar to this:
 
 ```	
-* Starting database mongodb                                 [ OK ]
+* Starting database mongodb              [ OK ]
 ```
 
 - **Run the command to start mongo console.**
 
 ```
-	mongo
+mongo
 ```
 
 you will see something similar to this:
