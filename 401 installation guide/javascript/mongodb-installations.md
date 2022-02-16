@@ -9,5 +9,5 @@
 ### Choose your device system and follow the instructions to start installing MongoDb:
 
 ###  [For Windows users](mongodb-wsl.md)
-###  [For pure Linux users](mongodb-linux.md)
-###  [For Mac users](mongodb-mac.md)
+###  [For Linux OS users](mongodb-linux.md)
+###  [For Mac Os users](mongodb-mac.md)
