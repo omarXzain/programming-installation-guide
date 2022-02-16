@@ -1,6 +1,6 @@
-# JavaScript Advance course Setup:
+# JavaScript Advanced course Setup:
 
-## For this course (JavaScript Advance), there are some additional applications and tools that need to be installed.
+## For this course (JavaScript Advanced), there are some additional applications and tools that need to be installed.
 ### We will go through some steps, so please follow them carefully.
 
 # MongoDB Database
