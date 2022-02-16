@@ -11,7 +11,11 @@
 <h3 align="center"> install JDK 11 by clicking the icon below </h3>
 <p align="center"> <kbd><a href="https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14.1%2B1/OpenJDK11U-jdk_x64_windows_hotspot_11.0.14.1_1.msi"> <img height="177px" width="177px" src="images/JDK.jpg" alt="IntelliJ"></a></kbd>
 
+- If you are a Mac user download the file >>>	macOS x64 DMG Installer `jdk-11.0.13_osx-x64_bin.dmg`
+- If you are a windows user download the file >>>	Linux x64 RPM Package `jdk-11.0.13_linux-x64_bin.rpm`
+#### Note: you need to create oracle account in order to download the file.
 
+  <hr>
   
 ## IntelliJ IDEA
 is an integrated development environment written in Java for developing computer software
