@@ -72,7 +72,7 @@ Server has startup warnings:
 -  **Check the service status.**
 
 ```
-		sudo service mongodb status
+sudo service mongodb status
 ```
 
 
