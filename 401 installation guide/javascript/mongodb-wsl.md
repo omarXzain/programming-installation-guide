@@ -1,7 +1,7 @@
 # MongoDB for WSL2 | Ubuntu
 <br>
 
-### Please open your Terminal and run the following commands one after another to install the MongoDB client and server:
+### Please open your Ubuntu Terminal and run the following commands one after another to install the MongoDB client and server:
 
 <br>
 
