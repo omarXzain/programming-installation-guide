@@ -25,10 +25,8 @@ Note: we are going to download `Java SE 8 environment` just in case of some apps
   
 
 <p align="center">cLick on the icon below to download</p>
-<p align="center"> <a href="https://developer.android.com/studio#downloads"> <img height="177px" width="177px" src="https://miro.medium.com/max/400/1*55QX_6i9thPccZPblLNOIA.png" alt="Android"></a></p>
+<p align="center"> <a href="https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html"> <img height="177px" width="177px" src="https://miro.medium.com/max/400/1*55QX_6i9thPccZPblLNOIA.png" alt="Android"></a></p>
   
-  
-- If you are a windows user download the file >>>	Windows x64 Installer `jdk-8u311-windows-x64.exe`
 - If you are a Mac user download the file >>>	macOS x64 DMG Installer `jre-8u311-macosx-x64.dmg`
 - If you are a windows user download the file >>>	Linux x64 RPM Package `jre-8u311-linux-x64.rpm`
   
