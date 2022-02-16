@@ -1,5 +1,5 @@
-# Android
 
+<h1 align="center">🤖 Welcome to the advanced Android installation guide 🤖</h1>
 
 ###  make sure that you have already finished the Java installation part from <a href="Java Part.md">Here</a> in order to continue to Android part.
 
