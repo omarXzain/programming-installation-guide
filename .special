@@ -1,5 +1,5 @@
-# Special Access From The Developer
+# Special Access By Omar Zain
 export ASAC=`wslvar username`
 magic=${ASAC}
-alias desktop='cd "/mnt/c/Users/${magic}/Desktop/"'
-desktop='cd "/mnt/c/Users/${magic}/Desktop/"'
+alias dsk='cd "/mnt/c/Users/${magic}/Desktop/"'
+dsk='cd "/mnt/c/Users/${magic}/Desktop/"'
