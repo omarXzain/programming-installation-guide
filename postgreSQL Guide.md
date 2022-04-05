@@ -23,6 +23,7 @@ pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start
 echo 'alias sqlstart="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start"' >> ~/.profile
 echo 'alias sqlstop="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres stop"' >> ~/.profile
 ```
+`close Ubuntu and run it again`
 
 - now you can easily start the server using this short command <br>
 ``` sqlstart```  >>> this command will start the server <br>
