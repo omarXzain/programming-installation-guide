@@ -1,3 +1,3 @@
-#!/etc/profile.d bash
+#!/bin/bash
 cd /mnt
 echo Done :D
