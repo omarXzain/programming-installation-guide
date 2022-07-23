@@ -6,4 +6,4 @@ echo "Enter Your Github Email Address: "
 read y
 echo "Your Github USERNAME is ${x}!"
 echo "Your Email Address is ${y}"
-viu ${y}
+# viu ${y}
