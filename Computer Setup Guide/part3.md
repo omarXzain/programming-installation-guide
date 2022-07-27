@@ -90,7 +90,7 @@ git config --global user.email 'YOUR EMAIL ADDRESS'
 git config --global core.editor "code --wait"
 ```
 ```
-git config --global init.defaultbranch main
+git config --global init.defaultbranch current
 ```
 
 - let's make sure that all the settings are correct by running this command:
