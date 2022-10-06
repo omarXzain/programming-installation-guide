@@ -30,7 +30,7 @@ brew doctor
 - then you can continue to the next step
 
 ## Note:
-- if you get this warning below
+- if you get this warning below 👇
 &nbsp; &nbsp; &nbsp; &nbsp; <kbd>![](images/brew-update.jpg)</kbd>
 - then run the following command ( this error means that we need to update the homebrew to the lastest version )
 ```
@@ -40,6 +40,16 @@ then run the brew doctor again just to make sure
 ```
 brew doctor
 ```
+
+- if you get another warning: 👉
+<kbd>![](images/NotTapped.png)</kbd>
+- then copy and run the following command and you should be fine:
+
+```
+rm -rf "/home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/homebrew/homebrew-core"
+brew tap homebrew/core
+```
+
 
 ### Now we need to install `gcc` which is required for the homebrew to install other applications
 - to do this run this command in ubuntu: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 5 mins)

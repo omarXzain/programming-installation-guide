@@ -2,9 +2,9 @@
 
 # Python Tools
 
-### 1# OS specific commands
+### 1) OS specific commands
 
-- ### Mac
+- ### Mac users only
 
   ```
   xcode-select --install
@@ -14,7 +14,7 @@
   brew install openssl readline sqlite3 xz zlib
   ```
 
-- ### WSL/Linux
+- ### Windows/Linux users
 
   ```
   brew install bzip2 libffi libxml2 libxmlsec1 openssl readline sqlite xz zlib
@@ -40,7 +40,7 @@ pyenv install 3.9.5
 
 > the 3.9.5 is the Python interpreter version
 
-### 2# OS specific commands
+### 2) OS specific commands
 
 - ### Mac
 

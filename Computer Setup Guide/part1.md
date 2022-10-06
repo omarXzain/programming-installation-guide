@@ -29,12 +29,11 @@
 * `Virtual Machine Platform`
 * `Windows Hypervisor Platform`
 * `Windows Subsystem for Linux`
-* `Hyper-V`
+* `Hyper-V` (if exist)
 
 ### Not important ( just in case ):
 #### if you want to run ubuntu inside a virtual machine ( virtualbox, vmware, etc ) then you need to enable extra service:
 * `Containers`
-
 
 
 - once you enabled the services click ok and then you are required to RESTART your machine in order to take effect.
@@ -60,16 +59,23 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
  
 # important!!!
  
-### Now we need to run several commands using PowerShell 
+### Now we need to run several commands using PowerShell because sometimes the virtual machine service is DISABLED by default.
 - search for `PowerShell` from windows search bar and open `PowerShell.exe` and run it `as Adminstartor` then run the following commands:
+
+```
+Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
+```
+
+then run
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
-then
+then run
 ```
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 - this will enable Virtual Machine Platform for WSL, if it ask for a restart then restart your machine to continue
+
 ---------------------------------------------
 ### Now you need to install windows subsytem Linux ( used to run the Linux environment on windows )
 <h3 align="center">  click on the icon below to download it directly</h3>
@@ -115,7 +121,7 @@ wsl --set-default-version 2
 ### Be Carefull about the next step:
 - it will ask you to enter a new username: for example "student"
 - please note that the password is hidden, so make sure you are setting your password correctly.
-- set your password twice to verify it: ( make sure to memorize it ) `hint: use 123456 or 0000`
+- set your password twice to verify it: ( make sure to memorize it ) `hint: use 1234 or 0000`
 <br>
 
 - open `Windows Terminal` and run this command ( this to check UBUNTU if it's running with WSL version 2 )
@@ -148,7 +154,8 @@ curl -s https://raw.githubusercontent.com/omarXzain/LTUC-ASAC/main/.profile >> ~
 ```
 
 - Once it finishes, `COMPLETLY CLOSE UBUNTU` then re-open it again. 
-- Your terminal appearance should be changed to a different set of colors and cool features
+- Your Ubuntu appearance should be changed to a different set of colors and cool features
+&nbsp;&nbsp;<kbd>![wslLV](images/newubuntu.png)</kbd>
 
 <hr>
 
@@ -173,7 +180,7 @@ source ~/.profile
 sudo apt-get update
 ```
 - put your password, when prompted ( because we are using sudo )
-- once it's done, run this command: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt="update your windows now"> 13 mins )
+- once it's done, run this command: ( it will take up to ~ <img height="40px" width="30px" src="images/Time.png" alt="sudo apt-get upgrade"> 13 mins )
 ```
 sudo apt-get upgrade
 ```

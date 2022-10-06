@@ -84,3 +84,6 @@ In case that you face any problem after you install MongoDb.
 [Click Here To Repair](repair-mongodb.md)
 
 <hr>
+
+##  Finished
+

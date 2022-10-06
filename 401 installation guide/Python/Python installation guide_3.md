@@ -14,7 +14,7 @@ then configure it using
 poetry config virtualenvs.in-project true
 ```
 
-## Install Docker
+## Install Docker ( optional )
 
 Please follow the instructions in the [Docker documentations](https://docs.docker.com/get-docker/)
 

@@ -1,6 +1,6 @@
 <h1 align="center">🐍 Welcome to the advanced python installation guide 🐍</h1>
 
-## Please make sure that you have already finished the installation part from <a href="../../Computer Setup Guide/installation tutorial.md">Here</a> in order to continue to python part. if you do, then you can move to the next step
+## Please make sure that you have already finished the prep installation part from <a href="../../Computer Setup Guide/installation tutorial.md">Here</a> in order to continue to python part. if you do, then you can move to the next step
 
 ## Needed Tools
 
@@ -12,7 +12,7 @@
 
 <h2 align="center"> install Python by clicking the icon below </h2>
 
-<p align="center"> <kbd><a href="https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe"> <img height="180px" width="180px" src="images/python.png" alt="UBUNTU"></a></kbd>
+<p align="center"> <kbd><a href="https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe"> <img height="180px" width="180px" src="images/python.png" alt="UBUNTU"></a></kbd>
   
   <h3 align="center"> also you need to install 2 extensions for Visual Studio Code: </h3>
   <p align="center"> <kbd><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python"> <img height="100px" width="100px" src="images/pythonEXT.png" alt="pythonEXT"></a></kbd> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp<kbd><a href="https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig"> <img height="100px" width="100px" src="images/editorEXT.png" alt="editor"></a></kbd> </p>
@@ -33,13 +33,13 @@ mv .profile .oldProfile.bak && curl -s https://raw.githubusercontent.com/omarXza
 
 ## Install Zsh ( Unix shell used as command interpreter )
 
-- WSL
+- copy this command and paste it in UBUNTU
 
   ```
   sudo apt-get install zsh
   ```
 
-- Mac
+- Mac users only
 
   ```
   brew install zsh
@@ -54,7 +54,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 - Type `Yes` if asked if you want to make zsh the default shell.
 
-- Finally just copy-paste the text below into your terminal
+- Finally just copy-paste the text below into your UBUNTU terminal
 
 ```
 cat >> ~/.zshrc<<EOF
@@ -71,4 +71,4 @@ EOF
 <br>
 
 <hr>
-<a href="Python installation guide_2.md">MOVE TO PART2</a>
+<a href="Python installation guide_2.md">MOVE TO PART2 </a>

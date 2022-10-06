@@ -2,7 +2,7 @@
 <p align="center"><img  src="images/welcome1.png" alt="Java"></p>
 <img  src="images/line-down2.png" alt="Java">
 
-### Please make sure that you have already finished the installation part from <a href="../../Computer Setup Guide/installation tutorial.md">Here</a> in order to continue to Java part. if you do, then you can move to the next step.
+### Please make sure that you have already finished the prep installation part from <a href="../../Computer Setup Guide/installation tutorial.md">Here</a> in order to continue with Java part. if you do, then you can move to the next step.
 
 ## Needed Tools:
 - you have to install the required tools. then, you'll do the configurations step by step. ( we will use Java Development Kit (JDK 11) in our course )
@@ -11,10 +11,10 @@
 <h3 align="center"> install JDK 11 by clicking the icon below </h3>
 <p align="center"> <kbd><a href="https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.14.1%2B1/OpenJDK11U-jdk_x64_windows_hotspot_11.0.14.1_1.msi"> <img height="177px" width="177px" src="images/JDK.jpg" alt="IntelliJ"></a></kbd>
 
- #### install JDK 11 from this link ONLY if your are a `Linux` Or `MAC OS` users <a href="https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html">HERE</a>
+ #### install JDK 11 from this link ONLY if your are a `Linux` Or `Mac OS` user <a href="https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html">HERE</a>
 - If you are a Mac user download the file >>>	macOS x64 DMG Installer `jdk-11.0.13_osx-x64_bin.dmg`
-- If you are a windows user download the file >>>	Linux x64 RPM Package `jdk-11.0.13_linux-x64_bin.rpm`
-#### Note: you need to create oracle account in order to download the file.
+- If you are a Linux user download the file >>>	Linux x64 RPM Package `jdk-11.0.13_linux-x64_bin.rpm`
+#### Note: you need to create oracle account in order to download the file. ( for mac and linux )
 
   <hr>
   
