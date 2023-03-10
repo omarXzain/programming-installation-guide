@@ -20,8 +20,8 @@ pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start
 - we can use a shortcut command that will make the proccess easier for you by creating an allias.
 
 ``` 
-echo 'alias sqlstart="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start"' >> ~/.profile
-echo 'alias sqlstop="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres stop"' >> ~/.profile
+echo 'alias sqlstart="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgresql@14 start"' >> ~/.profile
+echo 'alias sqlstop="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgresql@14 stop"' >> ~/.profile
 ```
 `close Ubuntu and run it again`
 
@@ -31,17 +31,6 @@ echo 'alias sqlstop="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres stop"' >>
 
 ## if you are a Linux User no need to start the server, it will be done automatically
 On Linux, postgres can be setup to automatically start when your system reboots, so you do not have to run pgstart every time. To set this up, refer to the Postgres Server Documentation and follow the appropriate instructions for your Linux version to have postgres auto-start as a service.
-
-
--------------------------------------------------
-## Mac Users
-On Mac, we start the postgres server in such a way as to have it run right away, and also re-start itself whenever you restart your computer.
-
-Run this command to enable postgres:
-
-```
-brew services start postgres
-```
 
 -------------------------------------------------
 ### How to use:
@@ -67,5 +56,17 @@ Type "help" for help.
 yournamehere=#
 Type \q to exit the postgres client application and return to your bash shell.
 ```
+
+-------------------------------------------------
+## Mac Users
+On Mac, we start the postgres server in such a way as to have it run right away, and also re-start itself whenever you restart your computer.
+
+Run this command to enable postgres:
+
+```
+brew services start postgres
+```
+
+
 
  
