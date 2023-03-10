@@ -1,5 +1,0 @@
-# Special Access By Omar Zain
-export ASAC=`wslvar username`
-magic=${ASAC}
-alias dsk='cd "/mnt/c/Users/${magic}/Desktop/"'
-dsk='cd "/mnt/c/Users/${magic}/Desktop/"'
