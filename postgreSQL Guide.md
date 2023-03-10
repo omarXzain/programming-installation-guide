@@ -12,7 +12,7 @@ brew install postgresql
 - it will take some time to complete ( about 6 mins )
 - Once it does, then you can start the server using this command <br>
 ```
-pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start
+pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgresql@14 start
 ```
 - now you should see server started meassage and you can work 
 ![]()
@@ -58,7 +58,7 @@ Type \q to exit the postgres client application and return to your bash shell.
 ```
 
 -------------------------------------------------
-## Mac Users
+## Mac Users Only
 On Mac, we start the postgres server in such a way as to have it run right away, and also re-start itself whenever you restart your computer.
 
 Run this command to enable postgres:
@@ -66,7 +66,3 @@ Run this command to enable postgres:
 ```
 brew services start postgres
 ```
-
-
-
- 
