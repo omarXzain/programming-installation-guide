@@ -1,4 +1,4 @@
-# get current branch in git repo
+
 function braNch() {
  BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
  if [ ! "${BRANCH}" == "" ]
@@ -10,7 +10,6 @@ function braNch() {
  fi
 }
 
-# get current status of git repo
 function parse_git_dirty {
  status=`git status 2>&1 | tee`
  dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
@@ -45,14 +44,11 @@ function parse_git_dirty {
  fi
 }
 
-# PS1 is what actually defines what you command line prompt looks like.
 export PS1="\[\033[35m\] \u: path: \[\033[1;34m\]\[\033[1;34m\]\$(pwd) | \[\033[1;36m\]\$(/bin/ls -1 | /usr/bin/wc -l |
 /bin/sed 's: ::g') files | size \[\033[1;33m\]\$(/bin/ls -lah | /bin/grep -m 1 total | /bin/sed 's/total //')b |\[\033[0m\]\[\033[0m\] \[\033[0;32m\]branch: \`braNch\` | \n\[\033[0;32m\] └─\[\033[0m\033[0;36m\] $~ \[\033[33m\]"
 
-# Homebrew
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
-# NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh" ] && . "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh"
 [ -s "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm"
