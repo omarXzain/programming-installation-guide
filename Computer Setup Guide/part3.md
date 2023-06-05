@@ -17,7 +17,7 @@ nvm install --lts
 ```
 nvm ls
 ```
-- you should see a result similar to this ( v14.17.3 or higher! )
+- you should see a result similar to this ( v18.13.0 or higher! )
 <br> <br> <p align="center"><kbd>![](images/nodeCheck.jpg)</kbd></p>
 
 - let's double check the node version by running this command:
@@ -25,7 +25,7 @@ nvm ls
 node --version
 ```
 - the output should be only the node version 
-- in our case it's `v16.13.1` ( it's ok if you get higher version )
+- in our case it's `v18.15.0` ( it's ok if you get higher version )
 
 <hr>
 
@@ -73,10 +73,10 @@ gh auth login
 # Git Config
 ### Now you need to connect your github email with your machine, so you can remote and push your work to github
 
-MAKE SURE TO replace `YOUR FULL NAME` and `YOUR EMAIL ADDRESS` with the same username and email from Your GitHub Account
+MAKE SURE TO replace `Github username` and `YOUR EMAIL ADDRESS` with the same username and email from Your GitHub Account
 
 ```
-git config --global user.name 'YOUR FULL NAME'
+git config --global user.name 'put your github username here'
 ```
 - Note: replace YOUR FULL NAME with your github username and copy it inside ubuntu
 ```

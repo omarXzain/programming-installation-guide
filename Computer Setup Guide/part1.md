@@ -3,8 +3,8 @@
 
 ## Part 1
 
+- if you have windows 11 then skip the update part and go directly to `Windows features`
 ### Please follow the instructions line by line carfully:
-
 - before we start the installation part please make sure that you have the latest update for windows 10 in order to make the WSL enviroment to work
 - go to your windows search bar and type `system information` to check your OS details and <b> hit ENTER </b>
 - look at the Version number as you can see in the image below
@@ -38,11 +38,6 @@
 
 - once you enabled the services click ok and then you are required to RESTART your machine in order to take effect.
 
-### Note:
-- sometimes the virtual machine service is DISABLED from your machine, if so, go to your windows search bar, search for `cmd.exe` and run it as adminstrator and run this command:
-```
-Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
-```
 <hr>
 
 - RESTART your machine if prompted, it should work for you ( if it does SKIP this part below and start from PowerShell )
@@ -112,6 +107,8 @@ wsl --set-default-version 2
 
 <hr>
 
+- ONLY! If you are not able to install Ubuntu from the store then open `cmd.exe` and run this command: `wsl.exe --install -d Ubuntu`
+
 ## Now follow these instructions:
 
 - Run Ubuntu after it's done from installing then wait ... you will see a confirmation for a successful installation ( check the image below )
@@ -135,7 +132,7 @@ wsl -l -v
 
 ## Now we need to update ubuntu profile and create a backup for some files:
 
-### run these commands line by line:
+### run these commands line by line in `Ubuntu`:
 ```
 mv ~/.bashrc .bashrc.bak
 ```
@@ -148,7 +145,7 @@ mv ~/.profile .profile.bak
 
 <hr>
                                         
-- Now run this command in Ubuntu
+- Now run this command in `Ubuntu`
 ```
 curl -s https://raw.githubusercontent.com/omarXzain/LTUC-ASAC/main/.profile >> ~/.profile
 ```

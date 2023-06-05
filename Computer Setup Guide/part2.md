@@ -6,7 +6,7 @@
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
-- put ubuntu password when prompted, then you need to press `ENTER` to install Homebrew.
+- you need to press `ENTER` to install Homebrew.
 
 - after it's done `CLOSE UBUNTU` then open it again and enter these commands, one at a time in your UBUNTU to test the homebrew settings:
 ```
@@ -63,5 +63,4 @@ brew install gcc
 <hr>
 
 <a href="part1.md">Previous Page </a></h2> | <a href="part3.md">MOVE TO PART 3 ( Node )</a> 
-
 

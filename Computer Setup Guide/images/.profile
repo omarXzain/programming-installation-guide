@@ -44,8 +44,7 @@ function parse_git_dirty {
  fi
 }
 
-export PS1="\[\033[35m\] \u: path: \[\033[1;34m\]\[\033[1;34m\]\$(pwd) | \[\033[1;36m\]\$(/bin/ls -1 | /usr/bin/wc -l |
-/bin/sed 's: ::g') files | size \[\033[1;33m\]\$(/bin/ls -lah | /bin/grep -m 1 total | /bin/sed 's/total //')b |\[\033[0m\]\[\033[0m\] \[\033[0;32m\]branch: \`braNch\` | \n\[\033[0;32m\] └─\[\033[0m\033[0;36m\] $~ \[\033[33m\]"
+export PS1="\[\033[32m\] \u $~ \[\033[33m\]"
 
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 

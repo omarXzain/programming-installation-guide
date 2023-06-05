@@ -1,6 +1,6 @@
 <h1 align="center">🐍 Welcome to the advanced python installation guide 🐍</h1>
 
-## Please make sure that you have already finished the prep installation part from <a href="../../Computer Setup Guide/installation tutorial.md">Here</a> in order to continue to python part. if you do, then you can move to the next step
+## Please make sure that you have already finished the prep installation part from <a href="https://github.com/LTUC/prep-course-installation">Here</a> in order to continue to python part. if you do, then you can move to the next step
 
 ## Needed Tools
 
@@ -12,7 +12,7 @@
 
 <h2 align="center"> install Python by clicking the icon below </h2>
 
-<p align="center"> <kbd><a href="https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe"> <img height="180px" width="180px" src="images/python.png" alt="UBUNTU"></a></kbd>
+<p align="center"> <kbd><a href="https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe"> <img height="180px" width="180px" src="images/python.png" alt="UBUNTU"></a></kbd>
   
   <h3 align="center"> also you need to install 2 extensions for Visual Studio Code: </h3>
   <p align="center"> <kbd><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python"> <img height="100px" width="100px" src="images/pythonEXT.png" alt="pythonEXT"></a></kbd> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp<kbd><a href="https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig"> <img height="100px" width="100px" src="images/editorEXT.png" alt="editor"></a></kbd> </p>

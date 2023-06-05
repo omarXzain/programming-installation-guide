@@ -2,7 +2,7 @@
 <p align="center"><img  src="images/welcome1.png" alt="Java"></p>
 <img  src="images/line-down2.png" alt="Java">
 
-### Please make sure that you have already finished the prep installation part from <a href="../../Computer Setup Guide/installation tutorial.md">Here</a> in order to continue with Java part. if you do, then you can move to the next step.
+### Please make sure that you have already finished the prep installation part from <a href="https://github.com/LTUC/prep-course-installation">Here</a> in order to continue with Java part. if you do, then you can move to the next step.
 
 ## Needed Tools:
 - you have to install the required tools. then, you'll do the configurations step by step. ( we will use Java Development Kit (JDK 11) in our course )
@@ -22,7 +22,7 @@
 is an integrated development environment written in Java for developing computer software
 <h3 align="center"> install IntelliJ by clicking the icon below </h3>
 
-<p align="center"> <kbd><a href="https://download-cdn.jetbrains.com/idea/ideaIC-2021.3.2.exe"> <img height="177px" width="177px" src="images/IntelliJ.png" alt="IntelliJ"></a></kbd>
+<p align="center"> <kbd><a href="https://download-cdn.jetbrains.com/idea/ideaIC-2022.3.exe"> <img height="177px" width="177px" src="images/IntelliJ.png" alt="IntelliJ"></a></kbd>
 
 - run the downloaded file `ideaIC-2021.3.2.exe` and don't forget to check the boxes like the image below:
   
