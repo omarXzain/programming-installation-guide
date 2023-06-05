@@ -1,6 +1,6 @@
 # Cloud Service Providers - Netlify
 
-From now on, in this advanced course, we will use various cloud service providers to deploy code. 
+we will use various cloud service providers to deploy code. 
 In these steps, we will get a Netlify account created and install command-line tools.
 
 ## Netlify

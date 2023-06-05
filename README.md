@@ -21,5 +21,5 @@
 
 <hr>
 
-<h2 align="center">Go here for<a href="Computer setup guide/part1.md"> the advanced guide</h2>
+<h2 align="center">Go here for<a href="Advanced installation guide"> the advanced guide</h2>
 <h2></h2>
