@@ -1,4 +1,4 @@
-# Hello devs and welcome!
+# Hello there!
 
 - Please note this is the original version of the guide.
 
