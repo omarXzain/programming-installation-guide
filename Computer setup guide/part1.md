@@ -147,7 +147,7 @@ mv ~/.profile .profile.bak
                                         
 - Now run this command in `Ubuntu`
 ```
-curl -s curl -s https://raw.githubusercontent.com/omarXzain/programming-installation-guide/main/Computer%20setup%20guide/images/.profile >> ~/.profile >> ~/.profile
+curl -s https://raw.githubusercontent.com/omarXzain/programming-installation-guide/main/Computer%20setup%20guide/images/.profile >> ~/.profile
 ```
 
 - Once it finishes, `COMPLETLY CLOSE UBUNTU` then re-open it again. 
