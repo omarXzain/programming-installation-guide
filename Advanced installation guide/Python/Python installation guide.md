@@ -1,6 +1,6 @@
 <h1 align="center">🐍 Welcome to the advanced python installation guide 🐍</h1>
 
-## Please make sure that you have already finished the prep installation part from <a href="https://github.com/LTUC/prep-course-installation">Here</a> in order to continue to python part. if you do, then you can move to the next step
+## Please make sure that you have already finished the prep installation part from <a href="https://github.com/omarXzain/programming-installation-guide">Here</a> in order to continue to python part. if you do, then you can move to the next step
 
 ## Needed Tools
 
