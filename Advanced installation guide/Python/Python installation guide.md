@@ -28,7 +28,7 @@
 - copy this command and paste it in UBUNTU ( Backup & new .profile creation )
 
 ```
-mv .profile .oldProfile.bak && curl -s https://raw.githubusercontent.com/omarXzain/LTUC-ASAC/main/401%20installation%20guide/Python/.profile >> ~/.profile
+mv .profile .oldProfile.bak && curl -s https://raw.githubusercontent.com/omarXzain/programming-installation-guide/main/Advanced%20installation%20guide/Python/images/.profile >> ~/.profile
 ```
 
 ## Install Zsh ( Unix shell used as command interpreter )
