@@ -2,11 +2,11 @@
 
 - Please note this is the original version of the guide.
 
-- Before starting the steps, you need to configure your machine and install some required settings to make your enviroment ready.
+- Before starting the steps, you need to configure your machine and install some required settings to make your environment ready.
 
 - Please make sure to read the steps line by line to prevent such problems
 
-- This installation guide should take less than 45 minutes depending on your internet speed and your machine specification
+- This installation guide should take less than 45 minutes depending on your internet speed and your machine's specification
 
 - You do not need to understand what any process is doing.
 
